@@ -83,17 +83,15 @@ body {
 .nav-links a:hover { color: #38bdf8; }
 
 /* Hero Section */
-.hero {
-    height: 100vh;
+   .hero {
+    padding: 100px 10%; /* Adds nice space around your text */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
-                url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80');
-    background-size: cover;
+    background-color: #0f172a; /* Simple solid dark background */
+    border-bottom: 1px solid #1e293b; /* Subtle line to separate sections */
 }
-
 .hero h1 span { color: #38bdf8; }
 .btn {
     display: inline-block;
